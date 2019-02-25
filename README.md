@@ -46,6 +46,14 @@ markup to improve search results.
 
 ## Usage
 
+Transform HTML files directly from the command line:
+
+```bash
+npx phtml source.html output.html -p @phtml/schema
+```
+
+### Node
+
 Add [pHTML Schema] to your project:
 
 ```bash
