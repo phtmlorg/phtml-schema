@@ -4,7 +4,7 @@ export default new phtml.Plugin('phtml-schema', opts => {
 	const schema = Object(opts).schema || 'https://schema.org/';
 
 	return {
-		Element(node) {
+		Element (node) {
 			const itemtype = node.attrs.get('itemtype');
 
 			if (itemtype) {
